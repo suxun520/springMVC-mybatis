@@ -1,0 +1,16 @@
+package service;
+
+import java.util.List;
+
+import pojo.Items;
+
+public interface ItemsService {
+	// 查询商品列表
+	public List<Items> getItemsList();
+
+	// 根据id查商品
+	public Items getItemById(Integer id);
+
+	// 修改
+	public void updateItem(Items item);
+}
